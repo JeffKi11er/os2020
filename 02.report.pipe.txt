@@ -1,0 +1,30 @@
+ls -l | grep list
+drwxr-xr-x 2 root   root   4096 Jan 14 22:41 Notelist
+
+wc /etc/passwd
+  41   69 2405 /etc/passwd
+
+free -h
+              total        used        free      shared  buff/cache   available
+Mem:           7.7G        2.1G        1.3G        335M        4.4G        5.0G
+Swap:            0B          0B          0B
+
+cat /proc/cpuinfo
+onstant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds
+bogomips	: 5187.83
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+find Pictures
+Pictures
+Pictures/Screenshot from 2020-01-10 19-25-53.png
+Pictures/Screenshot from 2020-01-10 19-26-25.png
+Pictures/IMG_20180701_003435.jpg
+Pictures/elsetge.cat_wallpaper-de-joker_525492..jpg
+Pictures/elsetge.cat_joker-hd-wallpaper_64423..jpg
+Pictures/Screenshot from 2020-01-14 09-04-29.png
+Pictures/Screenshot from 2020-01-14 21-31-59.png
+Pictures/Screenshot from 2020-01-14 22-56-31.png
