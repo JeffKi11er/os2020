@@ -1,0 +1,77 @@
+hello world
+passwd: Authentication token manipulation error
+passwd: password unchanged
+Tue Jan 14 09:38:54 UTC 2020
+ubuntu
+x86_64
+Linux ubuntu 5.0.0-23-generic #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+[    0.000000] microcode: microcode updated early to revision 0x21, date = 2019-02-13
+[    0.000000] Linux version 5.0.0-23-generic (buildd@lgw01-amd64-030) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 (Ubuntu 5.0.0-23.24~18.04.1-generic 5.0.15)
+[    0.000000] Command line: BOOT_IMAGE=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/casper/vmlinuz file=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/preseed/ubuntu.seed boot=casper live-media-path=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/casper/ persistent persistent-path=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/ cdrom-detect/try-usb=true noprompt floppy.allowed_drive_mask=0 ignore_uuid quiet splash ---
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.069848] Policy zone: Normal
+[    0.069850] Kernel command line: BOOT_IMAGE=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/casper/vmlinuz file=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/preseed/ubuntu.seed boot=casper live-media-path=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/casper/ persistent persistent-path=/AIO/Files/Linux/ubuntu-18.04.3-desktop-amd64/ cdrom-detect/try-usb=true noprompt floppy.allowed_drive_mask=0 ignore_uuid quiet splash ---
+[    0.073559] Calgary: detecting Calgary via BIOS EBDA area
+[    0.073561] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[    0.094790] Memory: 7953620K/8285464K available (14339K kernel code, 2335K rwdata, 4312K rodata, 2584K init, 5196K bss, 331844K reserved, 0K cma-reserved)
+[    0.094914] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[    0.094920] Kernel/User page tables isolation: enabled
+[    0.094937] ftrace: allocating 41572 entries in 163 pages
+[    0.112174] rcu: Hierarchical RCU implementation.
+[    0.112175] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+[    0.112176] 	Tasks RCU enabled.
+[    0.112177] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+ayfs: "xino" feature enabled using 32 upper inode bits.
+[   32.952470] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+[   32.971973] systemd[1]: Detected architecture x86-64.
+[   32.974063] systemd[1]: Set hostname to <ubuntu>.
+el port driver
+[   35.133434] ACPI Warning: SystemIO range 0x0000000000000428-0x000000000000042F conflicts with OpRegion 0x0000000000000400-0x000000000000047F (\PMIO) (20181213/utaddress-213)
+[   35.133442] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   35.133447] ACPI Warning: SystemIO range 0x0000000000000540-0x000000000000054F conflicts with OpRegion 0x0000000000000500-0x0000000000000563 (\GPIO) (20181213/utaddress-213)
+[   35.133451] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   35.133452] ACPI Warning: SystemIO range 0x0000000000000530-0x000000000000053F conflicts with OpRegion 0x0000000000000500-0x0000000000000563 (\GPIO) (20181213/utaddress-213)
+[   35.133455] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   35.133456] ACPI Warning: SystemIO range 0x0000000000000500-0x000000000000052F conflicts with OpRegion 0x0000000000000500-0x0000000000000563 (\GPIO) (20181213/utaddress-213)
+[   35.133458] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   35.133458] lpc_ich: Resource conflict(s) found affecting gpio_ich
+591528] wlp2s0b1: associated
+[ 4127.596229] brcmsmac bcma0:1: wl0: brcms_c_d11hdrs_mac80211:  txop exceeded phylen 159/256 dur 1778/1504
+[ 4127.642210] brcmsmac bcma0:1: wl0: brcms_c_d11hdrs_mac80211:  txop exceeded phylen 137/256 dur 1602/1504
+[ 4128.075983] brcmsmac bcma0:1: brcms_ops_bss_info_changed: arp filtering: 1 addresses (implement)
+10:20:15 up  1:41,  1 user,  load average: 0.42, 0.60, 0.70
+
+ubuntu
+ubuntu   :1           2020-01-14 08:40 (:1)
+uid=999(ubuntu) gid=999(ubuntu) groups=999(ubuntu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+ubuntu   :1           :1               Tue Jan 14 08:40   still logged in
+reboot   system boot  5.0.0-23-generic Tue Jan 14 08:39   still running
+ubuntu   :1           :1               Mon Jan 13 22:14 - 22:39  (00:25)
+reboot   system boot  5.0.0-23-generic Mon Jan 13 22:13 - 22:39  (00:25)
+ubuntu   :1           :1               Mon Jan 13 14:15 - 15:07  (00:51)
+reboot   system boot  5.0.0-23-generic Mon Jan 13 14:14 - 15:07  (00:52)
+reboot   system boot  5.0.0-23-generic Mon Jan 13 14:01 - 14:02  (00:00)
+ubuntu   :1           :1               Sat Jan 11 10:44 - 11:47  (01:03)
+reboot   system boot  5.0.0-23-generic Sat Jan 11 10:43 - 11:47  (01:04)
+ubuntu   :1           :1               Sat Jan 11 09:14 - 10:36  (01:22)
+reboot   system boot  5.0.0-23-generic Sat Jan 11 09:11 - 11:47  (02:36)
+ubuntu   :1           :1               Fri Jan 10 19:57 - down   (00:00)
+ubuntu   :1           :1               Fri Jan 10 19:55 - 19:57  (00:01)
+ubuntu   :1           :1               Fri Jan 10 19:23 - 19:55  (00:31)
+ubuntu   :1           :1               Fri Jan 10 19:21 - 19:23  (00:01)
+ubuntu   :0           :0               Fri Jan 10 19:19 - 19:20  (00:00)
+reboot   system boot  5.0.0-23-generic Fri Jan 10 19:19 - 19:58  (00:38)
+ubuntu   :0           :0               Fri Jan 10 18:47 - 19:18  (00:31)
+reboot   system boot  5.0.0-23-generic Fri Jan 10 18:47 - 19:18  (00:31)
+ubuntu   :0           :0               Fri Jan 10 18:39 - down   (00:06)
+reboot   system boot  5.0.0-23-generic Fri Jan 10 18:39 - 18:46  (00:07)
+
+wtmp begins Fri Jan 10 18:39:15 2020
+Login     Name        Tty      Idle  Login Time   Office     Office Phone
+ubuntu    JeffTHiet  *:1             Jan 14 08:40 (:1)
+ 10:20:56 up  1:41,  1 user,  load average: 0.49, 0.59, 0.69
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ubuntu   :1       :1               08:40   ?xdm?   2:10   0.00s /usr/lib/gdm3/g
+
