@@ -1,0 +1,66 @@
+ps man
+3070 tty2     -      0:00 /usr/lib/firefox/firefox -contentproc -childID 7 -isFo
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+ 3147 pts/0    -      0:00 nano text.txt
+    - -        T      0:00 -
+ 3164 pts/0    -      0:00 ps man
+    - -        R+     0:00 -
+
+gnome-calculator
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency BHD is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency IRR is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency KZT is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency LKR is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency LYD is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency NPR is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency PKR is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency TND is not provided by IMF or ECB
+
+** (gnome-calculator:2986): WARNING **: 21:40:16.306: currency.vala:412: Currency VEF is not provided by IMF or ECB
+
+ps |grep 3147
+ 3147 pts/0    00:00:00 nano
+
+cat /proc/$$/status
+Seccomp:	0
+Speculation_Store_Bypass:	thread vulnerable
+Cpus_allowed:	ff
+Cpus_allowed_list:	0-7
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	135
+nonvoluntary_ctxt_switches:	1
+
+kill -STOP 3958
+
+kill -CONT 3958
+
+ps
+  PID TTY          TIME CMD
+ 3958 pts/1    00:00:00 bash
+ 3998 pts/1    00:00:00 less
+ 4127 pts/1    00:00:00 ps
+
+kill -KILL 3998
+ubuntu@ubuntu:~$ ps
+  PID TTY          TIME CMD
+ 3958 pts/1    00:00:00 bash
+ 4128 pts/1    00:00:00 ps
+[1]+  Killed                  cat text1.txt | less  (wd: ~/jeffki11er)
