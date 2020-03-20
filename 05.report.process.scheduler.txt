@@ -1,0 +1,26 @@
+cat /proc/sched_debug | grep "switches"
+ .nr_switches                   : 8353157
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+  .nr_switches                   : 7926960
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+  .nr_switches                   : 8315886
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+  .nr_switches                   : 11426126
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+
+cat /proc/sched_debug | grep ".nr_switches"
+.nr_switches                   : 8643451
+  .nr_switches                   : 8185847
+  .nr_switches                   : 8595083
+  .nr_switches                   : 12053537
+
+cat /proc/5/sched| grep "switches"
+nr_switches                                  :                62252
+nr_voluntary_switches                        :                62252
+nr_involuntary_switches                      :                    0
+
+cat /proc/20/sched| grep "switches"
+nr_switches                                  :                    8
+nr_voluntary_switches                        :                    8
+nr_involuntary_switches                      :                    0
+
