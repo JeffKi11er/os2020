@@ -1,0 +1,10 @@
+ps -A | grep firefox
+2483 tty2     00:03:41 firefox
+
+ps -o nlwp 2483
+NLWP
+  71
+
+ls -l /proc/2483/task | wc -l
+71
+
