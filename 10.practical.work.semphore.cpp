@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <semaphore.h>
 sem_t lock;
-void fibonacci(){
+void* fibonacci(void * arg){
 	int t1 = 1;
 	int t2 = 2;
 	for(int i = 0; i<100000;i++){
